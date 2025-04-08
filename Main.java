@@ -116,6 +116,7 @@ public class Main {
                 } catch (IOException e) {
                     System.out.println("Помилка читання файлу! " + e.getMessage());
                 }
+                break;
             case 2:
                 System.out.print("Введіть початок діапазону: ");
                 int diapazonStart = sc.nextInt();
